@@ -1,6 +1,12 @@
-function App(){
-  return(
-    <h1>Hello World</h1>
+import User from "./User";
+
+function App() {
+  return (
+    <div>
+      <h1>Hello React</h1>
+      <User />
+    </div>
   );
 }
+
 export default App;
