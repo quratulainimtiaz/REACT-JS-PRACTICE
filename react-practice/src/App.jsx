@@ -1,11 +1,13 @@
 function App() {
-  const name = "React";
-  const course = "React JS";
+  const name = "Annie";
+  const age = 20;
 
   return (
     <div>
-      <h1>Hello {name}</h1>
-      <p>I am learning {course}</p>
+      <h1>My React Profile</h1>
+      <h2>Name: {name}</h2>
+      <p>Age: {age}</p>
+      <button>View Profile</button>
     </div>
   );
 }
