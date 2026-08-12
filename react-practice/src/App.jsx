@@ -1,13 +1,14 @@
 function App() {
   const name = "Annie";
   const age = 20;
+  const city = "Peshawar";
 
   return (
     <div>
-      <h1>My React Profile</h1>
-      <h2>Name: {name}</h2>
+      <h1>My Profile</h1>
+      <p>Name: {name}</p>
       <p>Age: {age}</p>
-      <button>View Profile</button>
+      <p>City: {city}</p>
     </div>
   );
 }
