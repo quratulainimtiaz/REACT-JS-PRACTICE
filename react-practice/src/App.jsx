@@ -1,10 +1,11 @@
-import User from "./User";
-
 function App() {
+  const name = "React";
+  const course = "React JS";
+
   return (
     <div>
-      <h1>React Components</h1>
-      <User />
+      <h1>Hello {name}</h1>
+      <p>I am learning {course}</p>
     </div>
   );
 }
